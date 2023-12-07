@@ -18,6 +18,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation group: 'io.spring.javaformat', name: 'spring-javaformat-intellij-idea-plugin', version: '0.0.40'
 }
 
 tasks.named('test') {
