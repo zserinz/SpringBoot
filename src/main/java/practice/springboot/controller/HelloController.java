@@ -4,9 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import practice.springboot.service.HelloService;
-import practice.springboot.component.MyComponent;
 
-@MyComponent
 @RestController // 이 애노테이션에도 이미 @Component가 들어있다.
 @RequestMapping("/hello")
 public class HelloController {
