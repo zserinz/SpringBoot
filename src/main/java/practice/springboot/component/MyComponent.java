@@ -1,4 +1,4 @@
-package practice.springboot;
+package practice.springboot.component;
 
 import org.springframework.stereotype.Component;
 

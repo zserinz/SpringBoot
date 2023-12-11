@@ -2,7 +2,7 @@ package practice.springboot;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.context.ApplicationContext;
+import practice.springboot.controller.HelloController;
 
 public class HelloControllerTest {
     @Test

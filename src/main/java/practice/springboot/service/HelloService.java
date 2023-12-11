@@ -1,4 +1,4 @@
-package practice.springboot;
+package practice.springboot.service;
 
 public interface HelloService {
     String sayHello(String name);
