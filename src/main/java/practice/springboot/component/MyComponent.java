@@ -12,5 +12,5 @@ import java.lang.annotation.Target;
 @Component
 public @interface MyComponent {
     // Bean object로 자동으로 등록된다.
-    // 전통적인 계층을 구분해서 애노테이션을 통해 지칭해줄 수 있다.
+    // 전통적인 계층을 구분해서 애노테이션을 통해 지칭해줄 수 있다. -> 메타 에노테이션
 }
